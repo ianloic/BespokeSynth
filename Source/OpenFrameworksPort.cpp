@@ -36,6 +36,7 @@
 #include "OpenFrameworksPort.h"
 #include "nanovg/nanovg.h"
 #define NANOVG_GLES2_IMPLEMENTATION
+using namespace juce::gl;
 #include "nanovg/nanovg_gl.h"
 #include "ModularSynth.h"
 #include "Push2Control.h"

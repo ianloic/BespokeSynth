@@ -105,6 +105,7 @@ public:
    
    void refresh() { }
    void audioProcessorChanged (juce::AudioProcessor*) { }
+   void audioProcessorChanged (AudioProcessor* processor, const ChangeDetails& details) { }
    void audioProcessorParameterChanged (juce::AudioProcessor*, int, float) { }
    
 private:

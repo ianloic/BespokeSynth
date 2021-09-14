@@ -30,6 +30,8 @@
 #include "RadioButton.h"
 #include "ClickButton.h"
 
+using namespace juce::gl;
+
 class HelpDisplay : public IDrawableModule, public IRadioButtonListener, public IButtonListener
 {
 public:

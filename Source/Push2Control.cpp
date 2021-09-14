@@ -34,6 +34,7 @@
 #include "SynthGlobals.h"
 #include "nanovg/nanovg.h"
 #define NANOVG_GLES2_IMPLEMENTATION
+using namespace juce::gl;
 #include "nanovg/nanovg_gl.h"
 #include "nanovg/nanovg_gl_utils.h"
 #include "OpenFrameworksPort.h"
